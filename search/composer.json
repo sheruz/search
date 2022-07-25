@@ -1,0 +1,21 @@
+{
+    "name": "Malick/search-engine",
+    "description": "a search engine crawling tool that extracts metadata for a set of keywords.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sheroz Malick",
+            "email": "shahrozmalik0088@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Malick\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.2"
+    }
+}
